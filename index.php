@@ -38,7 +38,7 @@
                     </div>  
                 </form>
 
-                <a href="#" class="form-a">Create new account</a>
+                <a href="sigin.php" class="form-a">Create new account</a>
             </div>
         </div>
         <div class="line"></div>

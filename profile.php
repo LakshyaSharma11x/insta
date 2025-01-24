@@ -1,3 +1,6 @@
+<?php
+  require "module/_dbconnect.php";
+  ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,12 +34,12 @@
 
     
         <?php
-            session_start();
+           
             $id=$_SESSION['user_id'];
-            // echo $user_idx;
-            require "module/_dbconnect.php";
+         //echo $_SESSION['user_id']."sssssssssssssss";
+           
             if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true ){
-                $sql = 'SELECT * FROM `users` WHERE id='$id';';
+                $sql = "SELECT * FROM `users` WHERE id='$id'";
                 $result = mysqli_query($conn,$sql);
                 while($row = mysqli_fetch_assoc($result)){
                     $fnamex = $row['first_name'];
@@ -114,7 +117,7 @@
 </body>
 <script>
     $("button").click(function(){
-        $("div").addClass("hide");
+        $("div").addClass("tab-hide");
         ty = $(this).attr("data-da");
         $("."+ty+"").removeClass("tab-hide");
         

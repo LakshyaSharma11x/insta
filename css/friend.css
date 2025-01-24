@@ -81,7 +81,7 @@
     border: 1px solid aliceblue;
 
     width: 250px;
-    height: 200px;
+    height: 320px;
     flex-grow: 2;
     flex-shrink: 2;
     /* margin: px; */

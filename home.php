@@ -1,3 +1,6 @@
+<?php
+  require "module/_dbconnect.php";
+  ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,65 +28,65 @@
 
             <!-- 0000000000000000000000000000000000000000000 -->
             <div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div>
             <div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div>
             <div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div>
             <div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div>
             <div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div><div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div><div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div><div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div><div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div><div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div><div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div>
             <div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div>
             <div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div>
             <div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div>
             <div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div>
             <div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div>
             <div class="block-status-box">
-                <img class="block-status-img" src="/img/profile.jpg" alt="x">
+                <img class="block-status-img" src="img/profile.jpg" alt="x">
                 <div class="block-status-txt">@username</div> 
             </div>
             <!-- 0000000000000000000000000000000000000000000 -->

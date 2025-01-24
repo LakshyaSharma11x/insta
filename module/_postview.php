@@ -1,7 +1,7 @@
 
 <?php
-    require "module/_dbconnect.php";
-    // session_start();
+  
+    
 
     // $post_v = 'SELECT * FROM `friend` WHERE user_id="1"';
     // $post_result = mysqli_query($conn,$post_v);

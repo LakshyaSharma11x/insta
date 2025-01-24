@@ -53,7 +53,7 @@
                         <input type="file"  placeholder="image" name="file">
                     </div>  
                     <div class="form-in-butx">
-                        <input type="submit" value="siginup" class="form-in-but"> 
+                        <input type="submit" value="siginup" class="form-in-but" name="sub"> 
                     </div>  
                 </form>
 

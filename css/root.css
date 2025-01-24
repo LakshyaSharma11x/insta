@@ -12,5 +12,5 @@
 
 @font-face {
     font-family: fontx;
-    src: url(/font/sec.TTF);
+    src: url('../font/sec.TTF');
 }
