@@ -1,0 +1,119 @@
+.f-header{
+    border-bottom: 1px solid aliceblue;
+    width: 100%;
+    /* height: 80px; */
+    height: 10%;
+    /* margin: 0 auto; */
+
+    /* background-color: aqua; */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-header-a{
+    /* background-color: red; */
+
+    width: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-left{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    
+}
+
+.f-input{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: fontx;
+    font-size: 30px;
+    outline: none;
+}
+
+.f-right{
+    /* border: 1px solid blue; */
+    /* background-color: blueviolet; */
+    height: 100%;
+
+    width: 20%;
+}
+
+.f-button{
+    font-family: fontx;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.f-body{
+    /* background-color: red; */
+    /* height: 90%; */
+
+    /* margin-top: 50px; */
+    /* border: 1px solid brown; */
+    /* position: fixed; */
+    /* bottom: 0;*/
+    /* right: 0; */
+
+    /* width: 95%; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 2px;
+    overflow: scroll;
+}
+.box{
+    margin: 10px;
+    border: 1px solid aliceblue;
+
+    width: 250px;
+    height: 200px;
+    flex-grow: 2;
+    flex-shrink: 2;
+    /* margin: px; */
+}
+.box-img{
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 70%;
+}
+.box-name{
+    font-family: fontx;
+    font-size: 30px;
+    text-align: center;
+}
+
+.box-but-o{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+
+
+
+.box-but-b{
+    width: 40%;
+
+    font-family: fontx;
+    font-size: 20px;
+
+}
+

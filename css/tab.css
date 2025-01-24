@@ -1,0 +1,40 @@
+.profile-tab{
+    border: 1px solid red;
+    width: 80%;
+    height: 60vh;
+
+    margin: 45px auto;
+}
+.tab-header{
+    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    height: 10%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tab-button{
+    width: 200px;
+    height: 35px;
+    
+    font-family: fontx;
+    font-size: 30px
+}
+.tab-body{
+    border: 1px solid green;
+    height: 90%;
+    
+    overflow: scroll;
+}
+.tab-hide{
+    display: none;
+}
+
+.tab{
+    border: 1px solid red;
+    height: 100%;
+
+}

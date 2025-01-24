@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    --background-color: black;
+    --color: aliceblue;
+
+    --invert-background-color: rgb(253, 253, 253);
+    --invert-color: rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: fontx;
+    src: url(/font/sec.TTF);
+}

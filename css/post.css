@@ -1,0 +1,121 @@
+.post-card{
+    margin-top: 20px;
+
+    width: 80%;
+    height: 450px;
+
+    border: 1px solid aliceblue;
+    border-radius: 15px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: fontx;
+}
+
+.post-card-header{
+    /* border: 1px solid rgb(104, 139, 39); */
+    border: 1px solid rgb(7, 85, 11);
+
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.post-card-left{
+    margin: 15px;
+}
+.post-card-username{
+    font-size: 25px;
+}
+.post-card-txt{
+    
+}
+.post-card-right{
+    border: 1px solid rgb(7, 85, 11);
+    /* border: 1px solid rgb(139, 39, 39); */
+}
+
+.post-card-img-usr{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.post-card-body{
+    width: 100%;
+    height: 250px;
+}
+
+.post-card-body-post-img{
+    width: 100%;
+    height: 100%;
+}
+
+.post-card-footer{
+
+    border: 1px solid black;
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.post-card-footer-top {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.post-card-footer-bottom {
+    /* position: absolute; */
+    /* bottom: 0; */    
+    height: 35px;
+
+    display: flex;
+    flex-direction: row;
+}
+.post-card-footer-bottom-left{
+    width: 80%;
+    height: 35px;
+    
+}
+
+.post-card-footer-bottom-right{
+    width: 20%;
+
+}
+
+.post-comment{
+    width: 100%;
+    height: 100%;
+
+    outline: none;
+    text-align: center;
+
+    font-family: fontx;
+    font-size: 25px;
+    border: none;
+
+}
+.post-comment-button{
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+}
+
+.post-button{
+    border: 1px solid red;
+    width: 50px;
+    margin: 15px;
+}
