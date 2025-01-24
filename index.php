@@ -26,12 +26,12 @@
             </div>
             <div class="wel-right">
                 <div class="form-txt">Login</div>
-                <form class="form" action="" method="">
+                <form class="form" action="loginhandler.php" method="POST">
                     <div class="form-in-a">
-                        <input type="text" placeholder="Email" class="form-in-b"> 
+                        <input type="text" placeholder="Email" class="form-in-b" name="email"> 
                     </div>  
                     <div class="form-in-a">
-                        <input type="text" placeholder="Password" class="form-in-b"> 
+                        <input type="text" placeholder="Password" class="form-in-b" name="password"> 
                     </div>  
                     <div class="form-in-butx">
                         <input type="submit" value="login" class="form-in-but"> 
