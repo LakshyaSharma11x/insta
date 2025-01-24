@@ -14,10 +14,11 @@
                 $_SESSION['loggedin'] = true;
                 $_SESSION['user_id'] = $row['id'];
                 $_SESSION['user_name'] = $row['username'] ;
-                // echo 'logged in ' . $name;
+                echo 'logged in ' . $name;
 
                 header('location: /insta/home.php');
                 exit();
+                // echo $_SESSION['user_id'];
 
                 
             }
